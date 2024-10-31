@@ -80,6 +80,11 @@ body {
   background: rgba(244, 246, 243, 0.4039215686);
 }
 
+@media (max-width: 900px) {
+  .hide-on-small {
+    display: none;
+  }
+}
 .custom-image-container {
   max-width: 400px;
   min-width: 200px;
@@ -135,4 +140,4 @@ body {
 
 .mt-300 {
   margin-top: 300px;
-}/*# sourceMappingURL=syle.css.map */
+}/*# sourceMappingURL=style.css.map */
