@@ -1,0 +1,281 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Album Covers</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+        <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<!--NavBar----------------------------------------------------------->
+    <div class="container my-5">
+        <nav class="navbar custom-navbar">
+            <div class="container-fluid d-flex align-items-center">
+                <div class="d-flex justify-content-center ">
+                    <ul class="nav nav-underline mx-auto">
+                        <li class="nav-item mx-2 ">
+                            <a class="nav-link active" aria-current="page" href="#">Now PLaying</a>
+                        </li>
+                        <li class=" mx-2">
+                            <a class="nav-link" href="#story">Story</a>
+                        </li>
+                        <li class=" mx-2">
+                            <a class="nav-link" href="#albums">Albums</a>
+                        </li>
+                        <li class=" mx-2">
+                            <a class="nav-link" href="#">Podcasts</a>
+                        </li>
+                        <li class=" mx-2">
+                            <a class="nav-link " href="#">Playlists</a>
+                        </li>
+                    </ul>
+                </div>
+                <form class="d-flex ms-auto centered-form" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </nav>
+<!--Image disc Playing---------------------------------------------->        
+<div class="custom-image-container mt-300">
+    <img src="Covers/Punk's not dead.jpg" class="img-fluid rounded" alt="Punk-O-Rama">
+</div>
+
+<div class="container d-flex flex-column justify-content-center align-items-center mt-3 mb-1 p-2" style="max-width: 600px;">
+    <h3 class="text-center fs-2 fs-sm-4 fs-md-3 fs-lg-2">Punk's Not Dead</h3>
+    <p class="text-center fs-7 fs-sm-6 fs-md-5 fs-lg-4 mb-1">Punk's Not Dead</p>
+    <p class="text-center fs-7 fs-sm-6 fs-md-5 fs-lg-4 mb-1">The Exploited</p>
+    <p class="text-center fs-7 fs-sm-6 fs-md-5 fs-lg-4 mb-1">1981</p>
+</div>
+
+
+
+
+<!--Progres Bar----------------------------------------------------->
+
+<div class="progress custom-progress mt-4 mb-5" role="progressbar" aria-label="Basic example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+    <div class="progress-bar custom-progress-bar" style="width: 25%"></div>
+  </div>
+<!--Player---------------------------------------------------------->
+<div class="container my-4 mt-4">
+    <div class="d-flex justify-content-center align-items-center">
+        <button class="btn btn-light mx-3 fs-5 rounded-pill">
+            <i class="bi bi-skip-backward-fill"></i>
+        </button>
+        
+        <button class="btn btn-light mx-2 fs-5 rounded-pill">
+            <i class="bi bi-stop-fill"></i>
+        </button>
+        
+        <button class="btn btn-light mx-3 fs-5 rounded-pill">
+            <i class="bi bi-play-fill"></i>
+        </button>
+        
+        <button class="btn btn-light mx-2 fs-5 rounded-pill">
+            <i class="bi bi-pause-fill"></i>
+        </button>
+        
+        <button class="btn btn-light mx-3 fs-5 rounded-pill">
+            <i class="bi bi-skip-forward-fill"></i>
+        </button>
+    </div>
+</div>
+<!---Story---------------------------------------------------------->
+<div class="custom-container mt-300" id="story">
+    <img src="Covers/Exploited band.webp" alt="Exploited Band" class="img-fluid rounded custom-img">
+    
+    <h3>The Exploited</h3>
+    <p>The Exploited is a legendary Scottish punk band formed in 1979 by vocalist Wattie Buchan in Edinburgh. Known for their aggressive sound, politically charged lyrics, and fierce anti-establishment stance, they became one of the most influential bands of the punk movement’s second wave. Their debut album, Punk’s Not Dead (1981), was a raw, unfiltered call-to-arms that pushed back against the commercialized direction punk was taking, quickly earning them a dedicated following.
+
+        Their early albums, Troops of Tomorrow (1982) and Let’s Start a War (1983), cemented their reputation as incendiary voices in the punk world. With tracks like “Dead Cities” and “Alternative,” they tackled issues of social decay, class struggle, and government oppression. The Exploited’s chaotic, intense live shows often led to confrontations with police and authorities, only fueling their appeal to the disillusioned youth of the time.
+        
+        By the mid-1980s, The Exploited began to integrate thrash metal influences into their music, a bold crossover that paved the way for the punk-metal fusion movement. Albums like Horror Epics (1985) and Death Before Dishonour (1987) showcased this evolution, expanding their fanbase across the globe.
+        
+        Despite frequent lineup changes and Buchan’s health challenges, The Exploited has continued to perform and release music sporadically, with Fuck the System (2003) being their latest album. Known for their uncompromising attitude and commitment to punk’s rebellious spirit, The Exploited remain a staple in the punk world, inspiring generations of punk and hardcore bands worldwide.</p>
+</div>
+
+<!--Cards----------------------------------------------------------->    
+        <div class="row g-5 mt-300" id="albums">
+            <div class="col-6 col-sm-6 col-md-4 col-lg-3">
+                <div class="card h-100  ">
+                    <img src="Covers/Blink 182.jpeg" class="card-img-top" alt="Blink 182">
+                    <div class="card-body">
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Enema of the state</li>
+                            <li class="list-group-item">Blink 182</li>
+                            <li class="list-group-item">Pop-Punk</li>
+                            <li class="list-group-item">35 min, 19 sec.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-sm-6 col-md-4 col-lg-3">
+                <div class="card h-100 ">
+                    <img src="Covers/bouncing souls.jpg" class="card-img-top" alt="Bouncing Souls">
+                    <div class="card-body">
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Anchors Aweigh</li>
+                            <li class="list-group-item">The Bouncing souls</li>
+                            <li class="list-group-item">Punk-rock</li>
+                            <li class="list-group-item">47 min, 32 sec.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-sm-6 col-md-4 col-lg-3">
+                <div class="card h-100 ">
+                    <img src="Covers/clash.jpg" class="card-img-top" alt="The Clash">
+                    <div class="card-body">
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">London Calling</li>
+                            <li class="list-group-item"> The Clash</li>
+                            <li class="list-group-item">Punk</li>
+                            <li class="list-group-item">1 hr 5min</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-sm-6 col-md-4 col-lg-3">
+                <div class="card h-100 ">
+                    <img src="Covers/dropkick.jpg" class="card-img-top" alt="Dropkick Murphys">
+                    <div class="card-body">
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">The Warrior's Code</li>
+                            <li class="list-group-item">Dropkick Murphys</li>
+                            <li class="list-group-item">Irish Punk</li>
+                            <li class="list-group-item">41 min, 1 sec.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-sm-6 col-md-4 col-lg-3">
+                <div class="card h-100 ">
+                    <img src="Covers/flogging molly.jpg" class="card-img-top" alt="Flogging Molly">
+                    <div class="card-body">
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Drunken Lullabies</li>
+                            <li class="list-group-item">Flogging Molly</li>
+                            <li class="list-group-item">Irish Punk</li>
+                            <li class="list-group-item">45 min, 13 sec.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-sm-6 col-md-4 col-lg-3">
+                <div class="card h-100 ">
+                    <img src="Covers/less than jake.jpeg" class="card-img-top" alt="Less Than Jake">
+                    <div class="card-body">
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Hello Rockview</li>
+                            <li class="list-group-item">Less Than Jake</li>
+                            <li class="list-group-item">Punk-Rock</li>
+                            <li class="list-group-item">37 min, 59 sec</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-sm-6 col-md-4 col-lg-3">
+                <div class="card h-100 ">
+                    <img src="Covers/millancolin.jpeg" class="card-img-top" alt="Millencolin">
+                    <div class="card-body">
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">True Brew</li>
+                            <li class="list-group-item">Millencolin</li>
+                            <li class="list-group-item">Punk-Rock</li>
+                            <li class="list-group-item">34 min, 43 sec</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-sm-6 col-md-4 col-lg-3">
+                <div class="card h-100 ">
+                    <img src="Covers/misfits.jpg" class="card-img-top" alt="Misfits">
+                    <div class="card-body">
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Static Age</li>
+                            <li class="list-group-item">AThe Misfit</li>
+                            <li class="list-group-item">Horror-Punk</li>
+                            <li class="list-group-item">35 min, 4 sec</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-sm-6 col-md-4 col-lg-3">
+                <div class="card h-100 ">
+                    <img src="Covers/nofx.jpg" class="card-img-top" alt="NOFX">
+                    <div class="card-body">
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">The War on Errorism</li>
+                            <li class="list-group-item">NOFX</li>
+                            <li class="list-group-item">Punk-Rock</li>
+                            <li class="list-group-item">34 min, 5 sec</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-sm-6 col-md-4 col-lg-3">
+                <div class="card h-100 ">
+                    <img src="Covers/Pennywise.jpg" class="card-img-top" alt="Pennywise">
+                    <div class="card-body">
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Pennywise</li>
+                            <li class="list-group-item">Pennywise</li>
+                            <li class="list-group-item">Punk-Rock</li>
+                            <li class="list-group-item">33 min, 39 sec.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-sm-6 col-md-4 col-lg-3">
+                <div class="card h-100 ">
+                    <img src="Covers/rancid.jpg" class="card-img-top" alt="Rancid">
+                    <div class="card-body">
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">...And Out Come The Wolves</li>
+                            <li class="list-group-item">Rancid</li>
+                            <li class="list-group-item">Punk-Rock</li>
+                            <li class="list-group-item">49 min, 51 sec.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-sm-6 col-md-4 col-lg-3">
+                <div class="card h-100 ">
+                    <img src="Covers/street dogs.jpeg" class="card-img-top" alt="Street Dogs">
+                    <div class="card-body">
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">State Of Grace</li>
+                            <li class="list-group-item">Sreet Dogs</li>
+                            <li class="list-group-item">Punk-Rock</li>
+                            <li class="list-group-item">35 min, 20 sec.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+<!--Page Navigation ------------------------------------------------------------------------>
+        <nav aria-label="Page navigation example">
+            <ul class="pagination justify-content-center mt-5">
+              <li class="page-item disabled">
+                <a class="page-link">Previous</a>
+              </li>
+              <li class="page-item"><a class="page-link" href="#">1</a></li>
+              <li class="page-item"><a class="page-link" href="#">2</a></li>
+              <li class="page-item"><a class="page-link" href="#">3</a></li>
+              <li class="page-item">
+                <a class="page-link" href="#">Next</a>
+              </li>
+            </ul>
+          </nav>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
